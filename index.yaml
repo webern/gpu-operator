@@ -3,11 +3,11 @@ entries:
   gpu-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-09-23T16:35:06.43183419-07:00
+    created: 2019-10-03T15:38:07.135542154-07:00
     description: A Helm chart for Kubernetes
-    digest: e822be2a0eeb3af1a7dd434b9697df32ff5b103d78725ee94e8049cd42fdcdb1
+    digest: 164e7094d11a6bb97b195ff85c78b041dece19e3b6c2b397ddf17efffcb34d66
     name: gpu-operator
     urls:
     - https://nvidia.github.io/gpu-operator/gpu-operator-1.0.0-techpreview.0.tgz
     version: 1.0.0-techpreview.0
-generated: 2019-09-23T16:35:06.431565482-07:00
+generated: 2019-10-03T15:38:07.135179039-07:00
