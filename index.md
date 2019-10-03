@@ -13,7 +13,7 @@ helm install nvidia/gpu-operator -n test-operator --wait
 kubectl apply -f https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/manifests/cr/sro_cr_sched_none.yaml
 ```
 
-## Install Helm
+#### Install Helm
 ```sh
 curl -L https://git.io/get_helm.sh | bash
 kubectl create serviceaccount -n kube-system tiller
