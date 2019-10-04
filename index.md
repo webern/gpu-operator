@@ -54,6 +54,7 @@ kubectl wait --for=condition=available -n kube-system deployment tiller-deploy
 - Kubernetes v1.13+
 - Helm 2
 - Ubuntu 18.04.3 LTS
+- `i2c_core` and `ipmi_msghandler` kernel modules loaded (`sudo modprobe -a i2c_core ipmi_msghandler`)
 - NFD deployed on each node (see how to [setup](https://github.com/kubernetes-sigs/node-feature-discovery))
   **(only if helm option nfd.enabled is set to false)**
   - Nodes must not be already setup with NVIDIA Components (driver, runtime, device plugin)
