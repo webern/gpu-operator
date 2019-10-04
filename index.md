@@ -8,13 +8,35 @@ This is a technical preview release of the GPU operator. The operator is availab
 
 #### Quickstart
 ```sh
-# Install helm https://docs.helm.sh/using_helm/ then run:
-helm repo add nvidia https://nvidia.github.io/gpu-operator
-helm repo update
+# If this is your first run of helm
+$ helm init --client-only
 
-helm install nvidia/gpu-operator -n test-operator --wait
-kubectl apply -f https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/manifests/cr/sro_cr_sched_none.yaml
+# Install helm https://docs.helm.sh/using_helm/ then run:
+$ helm repo add nvidia https://nvidia.github.io/gpu-operator
+$ helm repo update
+
+$ helm install --devel nvidia/gpu-operator -n test-operator --wait
+$ kubectl apply -f https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/manifests/cr/sro_cr_sched_none.yaml
+
+# Create a tensorflow notebook example
+$ kubectl apply -f https://nvidia.github.io/gpu-operator/notebook-example.yml
+
+# Grab the token from the pod once it is created
+$ kubectl get pod tf-notebook
+$ kubectl logs tf-notebook
+...
+[I 23:20:42.891 NotebookApp] jupyter_tensorboard extension loaded.
+[I 23:20:42.926 NotebookApp] JupyterLab alpha preview extension loaded from /opt/conda/lib/python3.6/site-packages/jupyterlab
+JupyterLab v0.24.1
+Known labextensions:
+[I 23:20:42.933 NotebookApp] Serving notebooks from local directory: /home/jovyan
+    
+        Copy/paste this URL into your browser when you connect for the first time,
+            to login with a token:
+                    http://localhost:8888/?token=MY_TOKEN
 ```
+
+You can now access the notebook on http://localhost:30001/?token=MY_TOKEN
 
 #### Install Helm
 ```sh
