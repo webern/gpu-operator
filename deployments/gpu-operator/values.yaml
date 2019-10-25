@@ -7,6 +7,8 @@ replicaCount: 1
 nfd:
   enabled: true
 
+installNoneScheduler: true
+
 image:
   repository: nvcr.io/nvidia/gpu-operator
   tag: 1.0.0-techpreview.1

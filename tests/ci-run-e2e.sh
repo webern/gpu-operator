@@ -32,8 +32,8 @@ echo "Deploy operator"
 helm install ../deployments/gpu-operator --set image.repository="${IMAGE}" --set image.tag="${TAG}" -n test-operator --wait
 
 # Should be done by default by helm deployment
-echo "Deploy default CRD"
-kubectl apply -f ../manifests/cr/sro_cr_sched_none.yaml
+#echo "Deploy default CRD"
+#kubectl apply -f ../manifests/cr/sro_cr_sched_none.yaml
 
 echo "Deploy GPU pod"
 kubectl apply -f gpu-pod.yaml

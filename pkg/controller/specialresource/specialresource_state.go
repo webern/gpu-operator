@@ -82,7 +82,7 @@ func (n *SRO) init(r *ReconcileSpecialResource,
 	addState(n, "/opt/sro/state-driver")
 	addState(n, "/opt/sro/state-driver-validation")
 	addState(n, "/opt/sro/state-device-plugin")
-        // removing device plugin validation because it is just a Pod (needs to be a daemonset)
+	// removing device plugin validation because it is just a Pod (needs to be a daemonset)
 	// and it takes away one GPU
 	// addState(n, "/opt/sro/state-device-plugin-validation")
 	addState(n, "/opt/sro/state-monitoring")

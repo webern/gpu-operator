@@ -8,11 +8,13 @@ import (
 	"runtime"
 
 	"github.com/NVIDIA/gpu-operator/pkg/apis"
+	"github.com/NVIDIA/gpu-operator/pkg/apis/sro/v1alpha1"
 	"github.com/NVIDIA/gpu-operator/pkg/controller"
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	"github.com/operator-framework/operator-sdk/pkg/leader"
 	"github.com/operator-framework/operator-sdk/pkg/ready"
 	sdkVersion "github.com/operator-framework/operator-sdk/version"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
@@ -91,6 +93,15 @@ func main() {
 	if err := controller.AddToManager(mgr); err != nil {
 		log.Error(err, "")
 		os.Exit(1)
+	}
+
+	// add the Scheduler CR
+	if os.Getenv("INSTALL_NONE_SCHEDULER") == "true" {
+		// use cfg
+		client := mgr.GetClient()
+		// create new objectSpecialResource
+		cr := v1alpha1.SpecialResource{ObjectMeta: metav1.ObjectMeta{Name: "gpu"}, Spec: v1alpha1.SpecialResourceSpec{Scheduling: "none"}}
+		client.Create(context.TODO(), &cr)
 	}
 
 	log.Info("Starting the Cmd.")
