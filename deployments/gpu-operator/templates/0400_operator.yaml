@@ -57,7 +57,7 @@ spec:
                   name: operator-config
                   key: unsupported
             - name: INSTALL_NONE_SCHEDULER
-              value: {{ .Values.installNoneScheduler }}
+              value: "{{ .Values.installNoneScheduler }}"
             - name: WATCH_NAMESPACE
               value: ""
             - name: POD_NAME
