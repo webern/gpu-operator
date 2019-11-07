@@ -3,7 +3,7 @@ entries:
   gpu-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-04T21:39:42.951498269Z"
+    created: "2019-11-07T21:40:59.152665298Z"
     description: A Helm chart for Kubernetes
     digest: 2ab502e9443cd901c8aa0e4501e0bb7704c161cc8ff9d2015e44b8949d27a420
     name: gpu-operator
@@ -12,7 +12,7 @@ entries:
     version: 1.0.0-techpreview.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-04T21:39:42.951065683Z"
+    created: "2019-11-07T21:40:59.152322877Z"
     description: A Helm chart for Kubernetes
     digest: 164e7094d11a6bb97b195ff85c78b041dece19e3b6c2b397ddf17efffcb34d66
     name: gpu-operator
@@ -21,7 +21,7 @@ entries:
     version: 1.0.0-techpreview.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-04T21:39:42.952356163Z"
+    created: "2019-11-07T21:40:59.154256322Z"
     description: A Helm chart for Kubernetes
     digest: 2b2f769fcde8de0cf6c8e7f849583b2eed3966f5c30973a4a32255e4bfffbfc4
     name: gpu-operator
@@ -30,11 +30,20 @@ entries:
     version: 3803ac161b0512e06affe995b76af562c7700b9e
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-04T21:39:42.951937339Z"
+    created: "2019-11-07T21:40:59.153688982Z"
     description: A Helm chart for Kubernetes
     digest: 18ef1ff49fbe006e39d6818fe37802bc69748baa8bc00e9e9eb92770cb6eb0a6
     name: gpu-operator
     urls:
     - https://nvidia.github.io/gpu-operator/gpu-operator-2a5058b6d5fdb46647f5bcf6770fedde3b4e3017.tgz
     version: 2a5058b6d5fdb46647f5bcf6770fedde3b4e3017
-generated: "2019-11-04T21:39:42.950215117Z"
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-07T21:40:59.153021625Z"
+    description: A Helm chart for Kubernetes
+    digest: 96a24f009d713125361a32dee28b1dbc3a2718bb1dac2ad4f010de52b69a4d55
+    name: gpu-operator
+    urls:
+    - https://nvidia.github.io/gpu-operator/gpu-operator-266a48fe78b110d11663d3fc64762959bbaf03d7.tgz
+    version: 266a48fe78b110d11663d3fc64762959bbaf03d7
+generated: "2019-11-07T21:40:59.151798924Z"
