@@ -3,7 +3,7 @@ entries:
   gpu-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-11T20:14:10.295935079Z"
+    created: "2019-11-11T20:28:24.680594075Z"
     description: A Helm chart for Kubernetes
     digest: 2ab502e9443cd901c8aa0e4501e0bb7704c161cc8ff9d2015e44b8949d27a420
     name: gpu-operator
@@ -12,7 +12,7 @@ entries:
     version: 1.0.0-techpreview.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-11T20:14:10.295550598Z"
+    created: "2019-11-11T20:28:24.680144517Z"
     description: A Helm chart for Kubernetes
     digest: 164e7094d11a6bb97b195ff85c78b041dece19e3b6c2b397ddf17efffcb34d66
     name: gpu-operator
@@ -21,7 +21,7 @@ entries:
     version: 1.0.0-techpreview.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-11T20:14:10.299618999Z"
+    created: "2019-11-11T20:28:24.684499136Z"
     description: A Helm chart for Kubernetes
     digest: 4fff4adb88bd2e5e4d8f7d6f0910c75e0fe6f72f75b602bd576e0def5bab2bbc
     name: gpu-operator
@@ -30,7 +30,7 @@ entries:
     version: bd14252be5b759e3b3fbf0c349fb74841f9db9ec
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-11T20:14:10.298973865Z"
+    created: "2019-11-11T20:28:24.683946237Z"
     description: A Helm chart for Kubernetes
     digest: b2841a2ccf29295ba8676bff8506219688a905c813626774eeeef516f87d41e5
     name: gpu-operator
@@ -39,16 +39,16 @@ entries:
     version: 7cb142696a1130731e72882c14e843d99ff8d67d
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-11T20:14:10.298462631Z"
+    created: "2019-11-11T20:28:24.679774234Z"
     description: A Helm chart for Kubernetes
-    digest: 2b2f769fcde8de0cf6c8e7f849583b2eed3966f5c30973a4a32255e4bfffbfc4
+    digest: e44eeabe5b727335759ea786df77e6811b81a99fff1b005cde349da9d52ba367
     name: gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/gpu-operator-3803ac161b0512e06affe995b76af562c7700b9e.tgz
-    version: 3803ac161b0512e06affe995b76af562c7700b9e
+    - https://nvidia.github.io/gpu-operator/gpu-operator-015a6dcc513d4cd1efe04738b405a9ba05e78e59.tgz
+    version: 015a6dcc513d4cd1efe04738b405a9ba05e78e59
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-11T20:14:10.297873402Z"
+    created: "2019-11-11T20:28:24.682670049Z"
     description: A Helm chart for Kubernetes
     digest: 451353a60ff3adf4b65a3d5f7e2ad5230674d8b363a51d5dabf595f88f72a98f
     name: gpu-operator
@@ -57,7 +57,7 @@ entries:
     version: 2b2b769fa0f8086f9adadf816eb9d0c233136354
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-11T20:14:10.297250413Z"
+    created: "2019-11-11T20:28:24.682054749Z"
     description: A Helm chart for Kubernetes
     digest: 18ef1ff49fbe006e39d6818fe37802bc69748baa8bc00e9e9eb92770cb6eb0a6
     name: gpu-operator
@@ -66,11 +66,20 @@ entries:
     version: 2a5058b6d5fdb46647f5bcf6770fedde3b4e3017
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-11T20:14:10.296369196Z"
+    created: "2019-11-11T20:28:24.681268497Z"
     description: A Helm chart for Kubernetes
     digest: 96a24f009d713125361a32dee28b1dbc3a2718bb1dac2ad4f010de52b69a4d55
     name: gpu-operator
     urls:
     - https://nvidia.github.io/gpu-operator/gpu-operator-266a48fe78b110d11663d3fc64762959bbaf03d7.tgz
     version: 266a48fe78b110d11663d3fc64762959bbaf03d7
-generated: "2019-11-11T20:14:10.294899783Z"
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-11T20:28:24.683279541Z"
+    description: A Helm chart for Kubernetes
+    digest: 2b2f769fcde8de0cf6c8e7f849583b2eed3966f5c30973a4a32255e4bfffbfc4
+    name: gpu-operator
+    urls:
+    - https://nvidia.github.io/gpu-operator/gpu-operator-3803ac161b0512e06affe995b76af562c7700b9e.tgz
+    version: 3803ac161b0512e06affe995b76af562c7700b9e
+generated: "2019-11-11T20:28:24.679059876Z"
