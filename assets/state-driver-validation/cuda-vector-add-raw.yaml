@@ -19,14 +19,7 @@ spec:
       env:
         - name: NVIDIA_VISIBLE_DEVICES
           value: all
-        - name: NVIDIA_DRIVER_CAPABILITIES
-          value: "compute,utility"
-        - name: NVIDIA_REQUIRE_CUDA  
-          value: "cuda>=5.0"
       securityContext:
-        readOnlyRootFilesystem: true
         allowPrivilegeEscalation: false
-        capabilities:
-          drop: ["ALL"]
   nodeSelector:
     feature.node.kubernetes.io/pci-10de.present: "true"
