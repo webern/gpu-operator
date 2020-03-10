@@ -3,7 +3,7 @@ entries:
   gpu-operator:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-03-03T01:59:05.098937156Z"
+    created: "2020-03-10T22:52:42.905778489Z"
     description: A Helm chart for Kubernetes
     digest: 44704de699c019778ecf2a4ec521739373328bfba690d54b3826e31d0b4d66fd
     name: gpu-operator
@@ -12,7 +12,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 1.0.0-techpreview.8
-    created: "2020-03-03T01:59:05.098387926Z"
+    created: "2020-03-10T22:52:42.905114681Z"
     description: A Helm chart for Kubernetes
     digest: 8a430c93577065c572210651faaf357fa6463fa7236ddffd832a8fb358adaac5
     name: gpu-operator
@@ -21,7 +21,7 @@ entries:
     version: 1.0.0-techpreview.8
   - apiVersion: v1
     appVersion: 1.0.0-techpreview.7
-    created: "2020-03-03T01:59:05.097448066Z"
+    created: "2020-03-10T22:52:42.9045023Z"
     description: A Helm chart for Kubernetes
     digest: 5677fff92555052cffc121f82b8dd4405a637166ccd7a8b3a175e08c9c541a48
     name: gpu-operator
@@ -30,7 +30,7 @@ entries:
     version: 1.0.0-techpreview.7
   - apiVersion: v1
     appVersion: 1.0.0-techpreview.6
-    created: "2020-03-03T01:59:05.097074871Z"
+    created: "2020-03-10T22:52:42.903692877Z"
     description: A Helm chart for Kubernetes
     digest: 0d0074ded682efe7b9ace103e984ce52405ee9f5b6fed8c74abb8a203587a289
     name: gpu-operator
@@ -39,7 +39,7 @@ entries:
     version: 1.0.0-techpreview.6
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-03T01:59:05.096692229Z"
+    created: "2020-03-10T22:52:42.902859401Z"
     description: A Helm chart for Kubernetes
     digest: 2ab502e9443cd901c8aa0e4501e0bb7704c161cc8ff9d2015e44b8949d27a420
     name: gpu-operator
@@ -48,7 +48,7 @@ entries:
     version: 1.0.0-techpreview.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-03T01:59:05.096230593Z"
+    created: "2020-03-10T22:52:42.902465045Z"
     description: A Helm chart for Kubernetes
     digest: 164e7094d11a6bb97b195ff85c78b041dece19e3b6c2b397ddf17efffcb34d66
     name: gpu-operator
@@ -57,7 +57,7 @@ entries:
     version: 1.0.0-techpreview.0
   - apiVersion: v1
     appVersion: 1.0.0-nightly-c7c15354
-    created: "2020-03-03T01:59:05.100261993Z"
+    created: "2020-03-10T22:52:42.907619045Z"
     description: A Helm chart for Kubernetes
     digest: cfa2b2f8fa558b97a84b6205d3f71c99202c962c5c7b410fbaaa2a2026b25172
     name: gpu-operator
@@ -65,8 +65,17 @@ entries:
     - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-1.0.0-nightly-c7c15354.tgz
     version: 1.0.0-nightly-c7c15354
   - apiVersion: v1
+    appVersion: 1.0.0-nightly-8854bf7a
+    created: "2020-03-10T22:52:42.906943284Z"
+    description: A Helm chart for Kubernetes
+    digest: 34665f3e0e966adde91c3384ad656009cb911c906fb9cccc15c23fdebff7723a
+    name: gpu-operator
+    urls:
+    - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-1.0.0-nightly-8854bf7a.tgz
+    version: 1.0.0-nightly-8854bf7a
+  - apiVersion: v1
     appVersion: 1.0.0-nightly-2958192b
-    created: "2020-03-03T01:59:05.099635324Z"
+    created: "2020-03-10T22:52:42.906348555Z"
     description: A Helm chart for Kubernetes
     digest: 4a937c4c86e185f1a38616c019cd012127a1804003911b2a92e2212aa3653379
     name: gpu-operator
@@ -75,7 +84,7 @@ entries:
     version: 1.0.0-nightly-2958192b
   - apiVersion: v1
     appVersion: 1.0.0-beta.0
-    created: "2020-03-03T01:59:05.095860348Z"
+    created: "2020-03-10T22:52:42.902052008Z"
     description: A Helm chart for Kubernetes
     digest: dc10fd8a716a9ded46d862681e7ed03a5d02f8033af5c0f22642c004f6d27b0c
     name: gpu-operator
@@ -84,11 +93,11 @@ entries:
     version: 1.0.0-beta.0
   - apiVersion: v1
     appVersion: nightly-cf00e8a4
-    created: "2020-03-03T01:59:05.100849259Z"
+    created: "2020-03-10T22:52:42.908147254Z"
     description: A Helm chart for Kubernetes
     digest: 46fa42334db69ac955d64af3a8be4c18a3cd670d31653f538106a34ce4a498e5
     name: gpu-operator
     urls:
     - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-nightly-cf00e8a4.tgz
     version: nightly-cf00e8a4
-generated: "2020-03-03T01:59:05.095238994Z"
+generated: "2020-03-10T22:52:42.901352537Z"

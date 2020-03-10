@@ -3,7 +3,7 @@ entries:
   gpu-operator:
   - apiVersion: v1
     appVersion: 1.0.0-nightly-c7c15354
-    created: "2020-03-03T01:59:05.178317412Z"
+    created: "2020-03-10T22:52:42.984357946Z"
     description: A Helm chart for Kubernetes
     digest: cfa2b2f8fa558b97a84b6205d3f71c99202c962c5c7b410fbaaa2a2026b25172
     name: gpu-operator
@@ -11,8 +11,17 @@ entries:
     - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-1.0.0-nightly-c7c15354.tgz
     version: 1.0.0-nightly-c7c15354
   - apiVersion: v1
+    appVersion: 1.0.0-nightly-8854bf7a
+    created: "2020-03-10T22:52:42.983944099Z"
+    description: A Helm chart for Kubernetes
+    digest: 34665f3e0e966adde91c3384ad656009cb911c906fb9cccc15c23fdebff7723a
+    name: gpu-operator
+    urls:
+    - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-1.0.0-nightly-8854bf7a.tgz
+    version: 1.0.0-nightly-8854bf7a
+  - apiVersion: v1
     appVersion: 1.0.0-nightly-2958192b
-    created: "2020-03-03T01:59:05.177907608Z"
+    created: "2020-03-10T22:52:42.983549396Z"
     description: A Helm chart for Kubernetes
     digest: 4a937c4c86e185f1a38616c019cd012127a1804003911b2a92e2212aa3653379
     name: gpu-operator
@@ -21,11 +30,11 @@ entries:
     version: 1.0.0-nightly-2958192b
   - apiVersion: v1
     appVersion: nightly-cf00e8a4
-    created: "2020-03-03T01:59:05.178721Z"
+    created: "2020-03-10T22:52:42.985096746Z"
     description: A Helm chart for Kubernetes
     digest: 46fa42334db69ac955d64af3a8be4c18a3cd670d31653f538106a34ce4a498e5
     name: gpu-operator
     urls:
     - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-nightly-cf00e8a4.tgz
     version: nightly-cf00e8a4
-generated: "2020-03-03T01:59:05.177250521Z"
+generated: "2020-03-10T22:52:42.982903657Z"
