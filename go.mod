@@ -38,3 +38,5 @@ replace (
 )
 
 replace github.com/operator-framework/operator-sdk => github.com/operator-framework/operator-sdk v0.10.0
+
+replace github.com/openshift/api => webern/openshift-api v3.9.0
