@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  gpu-operator:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-04-17T23:47:48.331295988Z"
+    dependencies:
+    - condition: nfd.enabled
+      name: node-feature-discovery
+      repository: ""
+      version: 0.1.0
+    description: NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes
+    digest: 11877432af8ec8ab68cd182746668501409192c365308077aa965d0d3b316623
+    home: https://github.com/NVIDIA/gpu-operator
+    kubeVersion: '>= 1.13.0-0'
+    name: gpu-operator
+    urls:
+    - https://brigmatt-tuf.s3.amazonaws.com/helm/gpu-operator/gpu-operator-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-04-17T23:47:48.329713473Z"
+    dependencies:
+    - condition: nfd.enabled
+      name: node-feature-discovery
+      repository: ""
+      version: 0.1.0
+    description: NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes
+    digest: f43ea514148f062376321a5071fd81041b6bd6de8baa5a039f706f6b03988b3d
+    home: https://github.com/NVIDIA/gpu-operator
+    kubeVersion: '>= 1.13.0-0'
+    name: gpu-operator
+    urls:
+    - https://brigmatt-tuf.s3.amazonaws.com/helm/gpu-operator/gpu-operator-1.0.1.tgz
+    version: 1.0.1
+generated: "2020-04-17T23:47:48.328609045Z"
