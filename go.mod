@@ -38,3 +38,7 @@ replace (
 )
 
 replace github.com/operator-framework/operator-sdk => github.com/operator-framework/operator-sdk v0.10.0
+
+replace github.com/openshift/api => github.com/webern/openshift-api v3.9.0+incompatible
+replace bitbucket.org/ww/goautoneg => github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
+//                                                                        20191010083416-a7dc8b61c822528f973a5e4e7b272055c6fdb43e
